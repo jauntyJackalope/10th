@@ -52,12 +52,20 @@ hr{
   color: #851D41;
 }
 
-.information{
+.thankyou, .sorry, .promise, .lastOne{
   background-color: #FF6464;
   padding: 50px;
+  text-align: left;
+  position: relative;
 }
 
 .lastOne{
   background-color: #851D41;
   padding: 50px;
+}
+
+.thankyou-image, .sorry-image, .promise-image, .lastOne-image{
+  float: left;
+  width: 200px;
+  padding: 20px;
 }
